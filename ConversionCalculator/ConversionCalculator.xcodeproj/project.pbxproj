@@ -13,6 +13,7 @@
 		4AA41F342081A7D400E28C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA41F322081A7D400E28C7B /* LaunchScreen.storyboard */; };
 		4AA41F402081AA4B00E28C7B /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA41F3F2081AA4B00E28C7B /* ConverterViewController.swift */; };
 		4AA41F422081B47F00E28C7B /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA41F412081B47F00E28C7B /* Converter.swift */; };
+		4AB7B37A20A147670035F5DE /* converterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B37920A147670035F5DE /* converterType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4AA41F352081A7D400E28C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AA41F3F2081AA4B00E28C7B /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 		4AA41F412081B47F00E28C7B /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		4AB7B37920A147670035F5DE /* converterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = converterType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4AA41F352081A7D400E28C7B /* Info.plist */,
 				4AA41F3F2081AA4B00E28C7B /* ConverterViewController.swift */,
 				4AA41F412081B47F00E28C7B /* Converter.swift */,
+				4AB7B37920A147670035F5DE /* converterType.swift */,
 			);
 			path = ConversionCalculator;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB7B37A20A147670035F5DE /* converterType.swift in Sources */,
 				4AA41F2A2081A7D400E28C7B /* AppDelegate.swift in Sources */,
 				4AA41F422081B47F00E28C7B /* Converter.swift in Sources */,
 				4AA41F402081AA4B00E28C7B /* ConverterViewController.swift in Sources */,
